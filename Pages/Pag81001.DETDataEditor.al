@@ -1,4 +1,4 @@
-page 81001 "DET Data Editor"
+page 70976476 "DET Data Editor"
 {
 
     Caption = 'Data Editor';

@@ -1,6 +1,8 @@
-.vscode
-.alpackages
-.alcache
-.altemplates
-.vs/
-.vscode/
+**/.vscode/launch.json
+**/.vscode/rad.json
+**/.alpackages/
+**/desktop.ini
+**/tmp/*.rdlc
+**/tmp/*.docx
+**/*.xlf
+

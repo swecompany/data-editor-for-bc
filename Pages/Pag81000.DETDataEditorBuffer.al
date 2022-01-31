@@ -1,4 +1,4 @@
-page 81000 "DET Data Editor Buffer"
+page 70976475 "DET Data Editor Buffer"
 {
 
     Caption = 'Data Editor Buffer';

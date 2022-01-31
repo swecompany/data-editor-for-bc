@@ -1,32 +1,38 @@
 {
-  "id": "e28d62da-ceb0-46e7-9e06-774bc46f4bac",
-  "name": "Data Editor Tool",
-  "publisher": "Volodymyr Dvernytskyi",
-  "version": "1.0.1.1",
-  "brief": "https://vld-nav.com/",
-  "description": "https://vld-nav.com/",
+  "id": "6d010c0d-5f3e-40cc-b397-b29fe67881ae",
+  "name": "ServiceTool 8 Data Editor Tool",
+  "publisher": "Aareon RELion GmbH",
+  "version": "1.0.0.0",
+  "brief": "ServiceTool 8 Data Editor Tool",
+  "description": "Tool to directly edit data in BC. Original by Volodymyr Dvernytskyi https://vld-nav.com/ - WARNING: ServiceTools are intended for use by trained personnel only. They are not part of the standard application. No warranty! They are used at your own risk.",
   "privacyStatement": "https://vld-nav.com/",
   "EULA": "https://vld-nav.com/",
   "help": "https://vld-nav.com/",
   "url": "https://vld-nav.com/",
   "logo": "./logo.png",
-  "dependencies": [],
   "screenshots": [],
-  "platform": "19.0.0.0",
-  "application": "19.0.0.0",
+  "platform": "18.0.0.0",
+  "dependencies":  [
+    {
+    "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+    "publisher": "Microsoft",
+    "name": "System Application",
+    "version": "18.0.0.0"
+    },
+    {
+    "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+    "publisher": "Microsoft",
+    "name": "Base Application",
+    "version": "18.0.0.0"
+    }
+   ],
   "idRanges": [
     {
-      "from": 81000,
-      "to": 81100
+      "from": 70976475,
+      "to": 70976478
     }
   ],
   "contextSensitiveHelpUrl": "https://vld-nav.com/",
-  "runtime": "8.0",
-  "features": ["TranslationFile"],
-  "resourceExposurePolicy":
-    {
-      "allowDebugging": true,
-      "allowDownloadingSource": true,
-      "includeSourceInSymbolFile": true
-    }
+  "runtime": "7.2",
+  "features": ["TranslationFile"]
 }
